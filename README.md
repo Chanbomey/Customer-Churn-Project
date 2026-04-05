@@ -4,7 +4,7 @@ Customer Churn Analysis & Prediction Models
 
 Overview:
 
-This project analyzes customer churn behavior and develops multiple predictive models to identify customers at risk of leaving. Model performance is evaluated using precision, recall, and F1-score, with a focus on selecting a model that generalizes well to unseen data. The results support data-driven decision-making and enable more targeted and effective customer retention strategies.
+This project analyzes customer churn behavior and develops multiple predictive models to identify customers at risk of leaving. Model performance is evaluated using precision, recall, and F1-score, with a focus on selecting a model that generalizes well to unseen data. The results support data-informed decisions and enable more targeted and effective customer retention strategies.
 
 Objectives:
 - Identify key factors driving customer churn
@@ -14,7 +14,7 @@ Objectives:
 Tools:
 - Programming Language: Python
 - Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn
-- Machine Learning Models: Decision Tree, K-Nearest Neighbors (KNN), Multilayer (MLP), Random Forest, 
+- Machine Learning Models: Decision Tree, K-Nearest Neighbors (KNN), Multi-Layer Perceptron (MLP), Random Forest
 - Data Processing: One-hot encoding, feature scaling, train-test split
 - Imbalance Handling: Random Under Sampling
 - Environment: Jupyter Notebook
@@ -31,13 +31,13 @@ Exploratory Data Analysis
 - Detected multicollinearity among usage-related variables
 
 Model Evaluation
-- Models were evaluated using precision, recall, and F1-score, with a focus on the churn class due to class imbalance.
-- Random Forest achieved the best overall performance, providing a strong balance between recall and precision, and was selected as the final model.
+- Models were evaluated using precision, recall, and F1-score, with a focus on the churn class due to class imbalance
+- Random Forest achieved the best overall performance, providing a strong balance between recall and precision, and was selected as the final model
 
 Key Insights
-- Customers with shorter tenure are more likely to churn, indicating higher risk among newly acquired customers.
-- Lower service usage and engagement are associated with increased churn risk, suggesting that less active users are more likely to leave.
-- Customers who are both new and less engaged represent the highest-risk segment, highlighting the importance of targeted early-stage retention strategies.
+- Customers with shorter tenure are more likely to churn, indicating higher risk among newly acquired customers
+- Lower service usage and engagement are associated with increased churn risk, suggesting that less active users are more likely to leave
+- Customers who are both new and less engaged represent the highest-risk segment, highlighting the importance of targeted early-stage retention strategies
 
 Business Recommendations
 - Target early-stage customers with retention strategies
