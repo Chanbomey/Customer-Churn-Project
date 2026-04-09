@@ -47,5 +47,5 @@ Business Recommendations
 
 Limitations
 - Limited exploration of advanced techniques such as cross-validation
-- Logistic Regression was not included for comparison
+- Logistic Regression was not included in this analysis, but it could serve as a useful baseline model to provide a benchmark for comparing more complex models.
 - Hyperparameter tuning was performed using the test set, which can make reported performance optimistic
